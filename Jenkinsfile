@@ -16,7 +16,7 @@ pipeline{
           stage('Compile'){
              
               steps{
-                  echo 'complie code again..'
+                  echo 'complie the code again..'
                   sh 'mvn compile'
 	      }
           }
